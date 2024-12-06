@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-webapp
-        image: opensourceops/my-webapp:20241206020214
+        image: opensourceops/my-webapp:20241206045028
         ports:
         - containerPort: 3000
