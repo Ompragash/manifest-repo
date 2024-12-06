@@ -10,7 +10,7 @@ metadata:
 
     # Update strategy: "latest" means Image Updater will attempt to pull the latest tag from the registry.
     # Other strategies include "semver" or "digest". Adjust as needed.
-    argocd-image-updater.argoproj.io/my-webapp.update-strategy: latest
+    argocd-image-updater.argoproj.io/my-webapp.update-strategy: semver
 
     # Method for writing back changes to the repository.
     # "git" means that Image Updater will commit the updated manifests back to your Git repo.
